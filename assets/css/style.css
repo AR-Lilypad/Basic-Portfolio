@@ -29,8 +29,8 @@ header {
 
 .nameBox {
     position: fixed;
-    width: 200px;
-    height: 100px;
+    width: 226px;
+    height: 96px;
     margin-left: 23%;
     padding: 14px 32px 36px 25px;
     background-color: #4aaaa5; 
@@ -72,15 +72,16 @@ main, section {
 }
 
 .bio {
-    padding: 15px;
+    padding: 15px 15px 15px 25px;
     line-height: 1.5em;
 
 }
 
-.profilePic img {
+.profilePic  {
     float: left;
-    width: 200px;
-    padding: 15px;
+    width: 250px;
+    margin-left: -29px;
+    padding: 10px 0 10px 0;
 }
 
 footer {
@@ -100,5 +101,15 @@ footer p {
     color: #fff;
     text-align: center;
     margin-top: 3%;
+}
+
+img {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px 50px 15px 50px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
 }
   
