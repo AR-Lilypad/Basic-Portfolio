@@ -6,7 +6,6 @@ body {
     max-width: 100%; 
     margin: 0;
     background-image: url("../images/crossline-dots.png");
-    repeat: no repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     }
@@ -44,6 +43,11 @@ header {
     text-decoration: none;
    }
 
+a:hover {
+    font-weight: bold;
+    color: #4aaaa5
+}   
+
 ul {
     list-style: none;
     margin: 0 25% 0 0;
@@ -75,6 +79,11 @@ main, section {
 }
 
 .portfolio h2 {
+    color: #4aaaa5;
+    padding: 25px 15px 15px 15px;
+}
+
+.contact h2 {
     color: #4aaaa5;
     padding: 25px 15px 15px 15px;
 }
@@ -165,4 +174,6 @@ img {
     top: -304px;
     left: 20px;
   }
+
+  
   
