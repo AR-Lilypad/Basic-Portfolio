@@ -97,7 +97,21 @@ main, section {
 .bio {
     padding: 15px 15px 15px 25px;
     line-height: 1.5em;
-    
+}
+
+.credit p{
+  font-size: 9px;
+  font-style: italic;
+  text-align: right;
+}
+
+.credit a {
+  font-size: 9px;
+  font-style: italic;
+  color: #4aaaa5;
+  text-align: right;
+  text-decoration: none;
+
 }
 
 .profilePic  {
