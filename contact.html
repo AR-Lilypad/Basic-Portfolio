@@ -35,26 +35,34 @@
 
         <div class="call2Action">
             <p>Contact me for more information about the work you see on the site. </p>
-        </div>
-        <div class="contactME">
-            <form id="contact" action="" method="post">
 
-                <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                </fieldset>
 
-                <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                </fieldset>
+            <div class="contactME">
 
-                <fieldset>
-                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                </fieldset>
-
-                <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                </fieldset>
-            </form>
+                <form id="contact" action="" method="post">
+                    <div class="row">
+                        <label class="required" for="name">*Your name:</label><br>
+                        <input id="name" class="input" name="name" type="text" value="" size="75" /><br />
+                        <span id="name_validation" class="error_message"></span>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label class="required" for="email">*Your email:</label><br>
+                        <input id="email" class="input" name="email" type="text" value="" size="75" /><br />
+                        <span id="email_validation" class="error_message"></span>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label class="required" for="message">*Your message:</label><br>
+                        <textarea id="message" class="input" name="message" rows="7" cols="78"></textarea><br />
+                        <span id="message_validation" class="error_message"></span>
+                    </div>
+                    <br>
+                    <div id="submit">
+                        <input id="submit_button" type="submit" value="Send" />
+                    </div>
+                </form>
+            </div>
         </div>
 
     </main>
