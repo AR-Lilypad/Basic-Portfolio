@@ -91,7 +91,7 @@ main, section {
 .bio {
     padding: 15px 15px 15px 25px;
     line-height: 1.5em;
-
+    
 }
 
 .profilePic  {
@@ -99,6 +99,13 @@ main, section {
     width: 250px;
     margin-left: -29px;
     padding: 10px 0 10px 0;
+    border-radius: 1px;
+}
+
+.profilePic img {
+    border: none;
+    margin-left: 40px;
+    padding-right: 5px;
 }
 
 footer {
