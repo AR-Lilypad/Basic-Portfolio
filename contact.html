@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,60 +8,64 @@
     <title>Angie Roach: Contact Me</title>
     <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
 </head>
+
 <body>
-        <!-- Header includes navigation links or buttons-->
-<header>
-     
-        <a class="nameBox" href="index.html"><h2>Angela Roach</h2></a>
-    
-<nav>
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio &nbsp; &nbsp; &nbsp; &nbsp;|</a></li>
-            <li><a href="index.html">About &nbsp; &nbsp; &nbsp; &nbsp; |</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header includes navigation links or buttons-->
+    <header>
+
+        <a class="nameBox" href="index.html">
+            <h2>Angela Roach</h2>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio &nbsp; &nbsp; &nbsp; &nbsp;|</a></li>
+                <li><a href="index.html">About &nbsp; &nbsp; &nbsp; &nbsp; |</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!--Contact form-->
-<main>
-    <div class="contact">
-        <h2>Contact</h2>
-    </div>    
-        <hr>
-    
-        <p>Name:</p>
-
-        <div class="container">
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-          </form>
+    <main>
+        <div class="contact">
+            <h2>Contact</h2>
         </div>
-       
-</main>
+        <hr>
 
-<footer>
-    <p>Copyright &copy;</p>
-</footer>
+        <div class="call2Action">
+            <p>Contact me for more information about the work you see on the site. </p>
+        </div>
+        <div class="contactME">
+            <form id="contact" action="" method="post">
+
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+
+                <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
 
 
 
-    
+
 </body>
+
 </html>
