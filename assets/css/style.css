@@ -22,7 +22,7 @@ body {
 /* navigation row */   
 
 div.navcontainer {
-  position: fixed;
+  position: relative;
   width: 100%;
   height:85px;
   background-color: #fff; 
@@ -57,10 +57,9 @@ div.navcontainer {
   height: auto;
   position: relative;
   background: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: 700;
-  color: #fff;
+  /* font-weight: 700; */
   text-decoration: none;
   margin: 0 24% 0% 2%;
   float:right;
@@ -73,6 +72,7 @@ div.navcontainer {
   border-right: 1px #777 solid;
   }
 
+<<<<<<< HEAD
   .nav a {
     color: #777;
     padding: 5px;
@@ -87,6 +87,22 @@ div.navcontainer {
     color: #fff;
     
   }
+=======
+.nav a {
+  color: #777;
+  padding: 5px;
+  margin-left: 2em;
+  text-decoration: none;
+  transition: 0.5s ease;
+            }
+
+.nav a:hover {
+  background-color: #4aaaa5;
+  padding: 5px;
+  color: #fff;
+  
+}
+>>>>>>> d0241a1680a09c9106eb833d58712dbba308802d
 
 main {
     max-width: 960px;
@@ -98,20 +114,20 @@ main {
 
 /*  each page has headline of that page */
 
-.aboutMe h2 {
+.aboutMe  h2 {
     color: #4aaaa5;
     padding: 25px 15px 15px 15px;
 }
 
-.portfolio h2 {
+ .portfolio h2 {
     color: #4aaaa5;
     padding: 25px 15px 15px 15px;
 }
 
 .contact h2 {
     color: #4aaaa5;
-    padding: 25px 15px 15px 15px;
-}
+    padding: 25px 15px 15px 15px; 
+} 
 
  /*   home page content */
 
@@ -147,7 +163,10 @@ main {
     border: none;
     margin-left: 40px;
     padding-right: 5px;
-}
+    }
+.profilePic img:hover {
+    opacity: 1;
+}    
 
 /*  portfolio images */
 img {
@@ -160,13 +179,16 @@ img {
     height: 200px;
 }
 
+img:hover {
+  opacity: 0.6;
+}
+
 /* Portfolio Captions */
 .box-set {
     position: relative;
     height: 45px;
     background: #fff;
-    /* opacity: 0; */
-  }
+} 
     
   .box  {
     position: relative;
@@ -204,6 +226,8 @@ img {
     top: -304px;
     left: 20px;
   }
+
+  
 
   /* contact page */
     
