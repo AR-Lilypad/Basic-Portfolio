@@ -18,7 +18,14 @@ body {
         font-size: 15px;
     }
 
-/* header will be on each page at top */
+<<<<<<< HEAD
+/* Same navigation will be on each page */
+=======
+/* Same navigation will be on each page */
+
+  
+
+>>>>>>> 5bf3dad21c5f60b221ee1bfe7886e24dc8db2176
 /* navigation row */   
 
 div.navcontainer {
@@ -73,13 +80,13 @@ div.navcontainer {
   }
 
 <<<<<<< HEAD
-  .nav a {
-    color: #777;
-    padding: 5px;
-    margin-left: 2em;
-    text-decoration: none;
-    transition: 0.5s ease;
-              }
+.nav a {
+  color: #777;
+  padding: 5px;
+  margin-left: 2em;
+  text-decoration: none;
+  transition: 0.5s ease;
+            }
   
   .nav a:hover {
     background-color: #4aaaa5;
