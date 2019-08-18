@@ -18,7 +18,14 @@ body {
         font-size: 15px;
     }
 
+<<<<<<< HEAD
 /* Same navigation will be on each page */
+=======
+/* Same navigation will be on each page */
+
+  
+
+>>>>>>> 5bf3dad21c5f60b221ee1bfe7886e24dc8db2176
 /* navigation row */   
 
 div.navcontainer {
@@ -72,6 +79,7 @@ div.navcontainer {
   border-right: 1px #777 solid;
   }
 
+<<<<<<< HEAD
 .nav a {
   color: #777;
   padding: 5px;
@@ -86,13 +94,29 @@ div.navcontainer {
     color: #fff;
     
   }
+=======
+.nav a {
+  color: #777;
+  padding: 5px;
+  margin-left: 2em;
+  text-decoration: none;
+  transition: 0.5s ease;
+            }
 
-  /* main section */
+.nav a:hover {
+  background-color: #4aaaa5;
+  padding: 5px;
+  color: #fff;
+  
+}
+>>>>>>> d0241a1680a09c9106eb833d58712dbba308802d
+
 main {
     max-width: 960px;
     margin: 6% 25% 2% 25%;
     background-color: #fff;
     padding-bottom: 75px;
+
 }
 
 /*  each page has headline of that page */
@@ -117,26 +141,8 @@ main {
 .bio {
     padding: 15px 15px 15px 25px;
     line-height: 1.5em;
-  }
-  
-  .profilePic  {
-      float: left;
-      width: 250px;
-      margin-left: -29px;
-      padding: 10px 0 10px 0;
-      border-radius: 1px;
-  }
-  
-  .profilePic img {
-      border: none;
-      margin-left: 40px;
-      padding-right: 5px;
-      }
-  .profilePic img:hover {
-      opacity: 1;
-  }  
+}
 
-/* lorem credit */
 .credit p{
   font-size: 9px;
   font-style: italic;
@@ -151,6 +157,23 @@ main {
   text-decoration: none;
 
 }
+
+.profilePic  {
+    float: left;
+    width: 250px;
+    margin-left: -29px;
+    padding: 10px 0 10px 0;
+    border-radius: 1px;
+}
+
+.profilePic img {
+    border: none;
+    margin-left: 40px;
+    padding-right: 5px;
+    }
+.profilePic img:hover {
+    opacity: 1;
+}    
 
 /*  portfolio images */
 img {
@@ -211,7 +234,9 @@ img:hover {
     left: 20px;
   }
 
-/* contact page */
+  
+
+  /* contact page */
     
   .container {
     max-width: 400px;
