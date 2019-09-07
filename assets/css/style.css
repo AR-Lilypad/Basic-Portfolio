@@ -10,7 +10,7 @@ body {
     color: #777;
     }
 
-    h2 {
+     {h2
         font-family: 'Georgia', Times, Times New Roman, serif;
     }
 
@@ -18,14 +18,11 @@ body {
         font-size: 15px;
     }
 
-<<<<<<< HEAD
 /* Same navigation will be on each page */
-=======
 /* Same navigation will be on each page */
 
   
 
->>>>>>> 5bf3dad21c5f60b221ee1bfe7886e24dc8db2176
 /* navigation row */   
 
 div.navcontainer {
@@ -79,7 +76,6 @@ div.navcontainer {
   border-right: 1px #777 solid;
   }
 
-<<<<<<< HEAD
 .nav a {
   color: #777;
   padding: 5px;
@@ -94,7 +90,6 @@ div.navcontainer {
     color: #fff;
     
   }
-=======
 .nav a {
   color: #777;
   padding: 5px;
@@ -109,7 +104,6 @@ div.navcontainer {
   color: #fff;
   
 }
->>>>>>> d0241a1680a09c9106eb833d58712dbba308802d
 
 main {
     max-width: 960px;
